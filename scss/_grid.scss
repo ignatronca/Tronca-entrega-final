@@ -1,0 +1,38 @@
+.sedesSection {
+
+    div {
+        div {
+    
+            div {
+                background-color: rgb(77, 73, 73);
+                  width: 20 rem;
+                  
+                div {
+                    color: $thirdColor;
+                    div {
+                        color: $thirdColor; //TODO resposive 
+                    }
+                }
+                div {
+                    a {
+                        color: $secondaryColor;
+                        &:hover {
+                            color: rgb(181, 228, 100);
+                        }
+                    }
+                    p {
+                        color: $thirdColor;
+                    }
+                    p {
+                        color: $thirdColor;
+                    }
+                    p {
+                        color: $thirdColor;
+                    }
+
+                }
+            }
+        }
+      
+    }
+}

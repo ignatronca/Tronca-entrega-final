@@ -1,0 +1,98 @@
+div {
+    img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+body {
+    background-color: $mainColor;
+}
+
+.principalMessage {
+    border-style: outset;
+    border-right: $mainColor;
+    border-left: $mainColor;
+    border-top: $mainColor;
+    border-bottom:$mainColor;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    margin-bottom: 1%;
+
+    h1 {
+        color: $thirdColor;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    h2 {
+        color: $thirdColor;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    legend {
+
+        text-align: center;
+
+        button {
+            width: 170px;
+            background-color: #0e1c3b;
+
+            a {
+                color: $secondaryColor;
+                font-size: large;
+            }
+        }
+    }
+}
+
+
+.activities {
+    margin-bottom: 3%;
+
+    div {
+        img {
+            padding: 20px;
+            transition: transform .1s;
+            margin-bottom: 8%;
+            width: 90%;
+            &:hover {
+                -ms-transform: scale(1.08);
+                /* IE 9 */
+                -webkit-transform: scale(1.08);
+                /* Safari 3-8 */
+                transform: scale(1.08);
+              }
+        }
+    }
+}
+
+.h2Style {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+ 
+    form {
+        div {
+            label {
+                color: $thirdColor;
+            }
+            input {
+                color: gray;
+
+            }
+        }
+
+    }
+
+}
+
+.h1Animation {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

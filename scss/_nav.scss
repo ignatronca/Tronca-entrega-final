@@ -1,0 +1,78 @@
+nav {
+    padding-bottom: 1 px;
+    padding-top: 0%;
+    background-color: $thirdColor;
+    text-align: center;
+    font-size: 1.6rem;
+    color: gray;
+
+
+    div {
+        background-color: rgb(44, 44, 44);
+        height: auto;
+        a {
+            img {
+                padding-top: 3%;
+                padding-bottom: 0.3%;
+                width: 250px;
+            }
+        }
+
+        .button {
+            border-color: $thirdColor;
+            color: $thirdColor;
+            background-color: gray;
+        }
+
+        div {
+            div {
+                    a {
+                        font-family: 'Roboto', sans-serif;
+                        text-decoration: solid;
+                        color: $thirdColor;
+                        border-color: $thirdColor;
+                        font-size: 1.5rem;
+
+                        &:hover {
+                            color: $secondaryColor;
+                        }
+                    }
+                    a {
+                        font-family: 'Roboto', sans-serif;
+                        text-decoration: solid;
+                        color: $thirdColor;
+                        border-color: $thirdColor;
+                        font-size: 1.5rem;
+
+                        &:hover {
+                            color: $secondaryColor;
+                        }
+                    }
+                    a {
+                        font-family: 'Roboto', sans-serif;
+                        text-decoration: solid;
+                        color: $thirdColor;
+                        border-color: $thirdColor;
+                        font-size: 1.5rem;
+
+                        &:hover {
+                            color: $secondaryColor;
+                        }
+                    }
+                    a {
+                        font-family: 'Roboto', sans-serif;
+                        text-decoration: solid;
+                        color: $thirdColor;
+                        border-color: $thirdColor;
+                        font-size: 1.5rem;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    

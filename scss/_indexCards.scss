@@ -1,0 +1,59 @@
+.stickers {
+    margin-bottom: 5%;
+    margin-top: 8%;
+    div {
+        article {
+            div {
+                margin-bottom: 5%;
+                background-color: rgb(182, 174, 174);
+                padding: 20px;
+                height: 40px;
+                transition: transform .1s;
+                &:hover {
+                    -ms-transform: scale(1.08);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.08);
+                    /* Safari 3-8 */
+                    transform: scale(1.08);
+                }
+                height: 30rem;
+                }
+            }
+        }
+
+        article {
+            div {
+
+                margin-bottom: 5%;
+                background-color: rgb(182, 174, 174);
+                padding: 20px;
+                transition: transform .1s;
+                height: 80rem;
+
+                div {
+                    p {
+                        text-align: center;
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+
+        article {
+            div {
+
+                margin-bottom: 5%;
+                background-color: rgb(182, 174, 174);
+                padding: 20px;
+                transition: transform .1s;
+                height: 80rem;
+
+                div {
+                    p {
+                        text-align: center;
+                        color: mainColor;
+                    }
+                }
+            }
+        }
+    }
